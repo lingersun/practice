@@ -18,10 +18,10 @@ char * getMemory2()
 int main()
 {
 	char * str1 = NULL;
-	str1 = getMemory(); // 可以正常输出hello world
+	str1 = getMemory(); // 姝ｅ父杈撳嚭hello world
 	::std::cout << str1 <<::std::endl;
 	char *str2 = NULL;
-	str2 = getMemory2(); // 乱码
+	str2 = getMemory2(); // 涔辩爜
 	::std::cout << str2 <<::std::endl;
 
 	return 0;
