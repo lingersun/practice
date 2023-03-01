@@ -3,13 +3,13 @@
 
 char * getMemory()
 {
-	char *p = "hello world";
+	char *p = "hello world"; //hello world 保存在静态存储区
 	return p;
 }
 
 char * getMemory2()
 {
-	char array[] = "hello world";
+	char array[] = "hello world"; // hello world 保存在栈区
 	return array;
 }
 
